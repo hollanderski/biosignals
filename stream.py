@@ -76,7 +76,7 @@ class GSR:
 
 
 if __name__ == '__main__':
-    config = load_config(Path(Path.cwd().parent / "conf.yaml"))
+    config = load_config("conf.yaml")
 
     gsr = GSR(
         config=config,
